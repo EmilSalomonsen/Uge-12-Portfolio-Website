@@ -41,6 +41,14 @@ const projects = [
     githubUrl: "https://github.com/EmilSalomonsen/Uge-12-Portfolio-Website",
     liveUrl: ""
   },
+  {
+    id: '6',
+    title: "Weather Dashboard",
+    description: "A weather dashboard for checking weather forecasts using public APIs.",
+    technologies: ["Typescript", "React", "Tailwind CSS", "Vite", "Tanstack Query", "shadcn/ui", "C#", "ASP.NET Core"],
+    githubUrl: "https://github.com/EmilSalomonsen/WeatherDashboard",
+    liveUrl: ""
+  },
 ];
 
 const ProjectDetail = () => {
