@@ -17,7 +17,7 @@ const Sidebar = () => {
             <div className="py-2 px-4">
               <div className="font-semibold mb-2">Projects</div>
               <ul className="pl-2 space-y-1">
-                {[1,2,3,4,5].map(num => (
+                {[1,2,3,4,5, 6].map(num => (
                   <li key={num}>
                     <Link to={`/projects/${num}`} className={`block py-1 px-2 rounded text-sm transition-colors ${location.pathname === `/projects/${num}` ? 'bg-gray-800 font-semibold' : 'hover:bg-gray-800'}`}>Project {num}</Link>
                   </li>
